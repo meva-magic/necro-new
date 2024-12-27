@@ -12,22 +12,18 @@ public class BossEnemy : BaseEnemy
     {
         health = 15f; // У босса много здоровья
         damage = 10f;  // Урон босса
-        attackRange = 15f;
+        attackRange = 4f;
         attackCooldown = 4f;
 
         // Установить свойства NavMeshAgent
         var agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         if (agent != null)
         {
-            agent.speed = 2f; // Медленный, но мощный
+            agent.speed = 2f;
         }
     }
 
-    public override void Attack()
-    {
-        // Здесь реализуйте атаку босса, если необходимо
-        Debug.Log("Boss атакует игрока!");
-    }
+
 
     protected override void Die()
     {

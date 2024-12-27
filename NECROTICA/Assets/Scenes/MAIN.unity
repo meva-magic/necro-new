@@ -1972,7 +1972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4181639663036989119, guid: b808f690df1a3a846869a9d672269a09, type: 3}
       propertyPath: m_LocalScale.x
-      value: 518.5798
+      value: 600.6056
       objectReference: {fileID: 0}
     - target: {fileID: 4181639663036989119, guid: b808f690df1a3a846869a9d672269a09, type: 3}
       propertyPath: m_LocalScale.z
@@ -1980,7 +1980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4181639663036989119, guid: b808f690df1a3a846869a9d672269a09, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.0134
+      value: 33.126
       objectReference: {fileID: 0}
     - target: {fileID: 4181639663036989119, guid: b808f690df1a3a846869a9d672269a09, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3182,13 +3182,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2781515404842052012, guid: 5582bf34ec0deda4d868dbf7190a38c3, type: 3}
+      propertyPath: deathEffect
+      value: 
+      objectReference: {fileID: 5601036089067188822, guid: 924e772d99fea934f8c7dff7c622e78a, type: 3}
+    - target: {fileID: 2781515404842052012, guid: 5582bf34ec0deda4d868dbf7190a38c3, type: 3}
+      propertyPath: bigSlimePrefab
+      value: 
+      objectReference: {fileID: 2136842969844655289, guid: 38e990613f1fea94981b14b0831ef2c0, type: 3}
     - target: {fileID: 4718503079785735245, guid: 5582bf34ec0deda4d868dbf7190a38c3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.73798513
+      value: 2.69
       objectReference: {fileID: 0}
     - target: {fileID: 4718503079785735245, guid: 5582bf34ec0deda4d868dbf7190a38c3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.99999905
+      value: 3.16
       objectReference: {fileID: 0}
     - target: {fileID: 4718503079785735245, guid: 5582bf34ec0deda4d868dbf7190a38c3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3221,6 +3229,18 @@ PrefabInstance:
     - target: {fileID: 4718503079785735245, guid: 5582bf34ec0deda4d868dbf7190a38c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7383872333041447913, guid: 5582bf34ec0deda4d868dbf7190a38c3, type: 3}
+      propertyPath: m_Height
+      value: 1.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 7383872333041447913, guid: 5582bf34ec0deda4d868dbf7190a38c3, type: 3}
+      propertyPath: m_Radius
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7383872333041447913, guid: 5582bf34ec0deda4d868dbf7190a38c3, type: 3}
+      propertyPath: m_BaseOffset
+      value: 1.72
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6646,7 +6666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 554e49ed31229b747aa1682fe276e790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialogue: {fileID: 0}
+  Dialogue: {fileID: 864454901}
   lowerDistance: 12
   lowerSpeed: 12
   activationDistance: 6.9
